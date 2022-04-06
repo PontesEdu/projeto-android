@@ -42,13 +42,14 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     height: 150px;
     margin: auto;
+    padding-top: 40px;
 }
 
 header > h1{
     color: white;
     text-align: center;
     font-family: var(--fonte-destaque);
-    padding: 20px;
+    margin-bottom: 20px;
     font-weight: normal;
 }
 
@@ -57,10 +58,14 @@ header > p{
     text-align: center;
     font-family: var(--fonte-padrao);
     font-weight: bold;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav{
     background-color: var(--cor5);
+    margin: 20px;
     padding: 10px;
     font-weight: bold;
     margin: auto;
@@ -104,7 +109,7 @@ main > h2{
 main > p{
     font-family: var(--fonte-padrao);
     text-indent: 10px;
-    line-height: 2em;
+    line-height: 3.5em;
     text-align: justify;
 }
 
@@ -121,7 +126,7 @@ main a:hover{
     padding: 5px;
 }
 
-.foto{
+.foto3{
     max-width: 320px;
     display: block;
     margin: auto;
