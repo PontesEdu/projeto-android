@@ -86,7 +86,7 @@ nav > a:hover {
 
 main{
     background-color: white;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -110,6 +110,10 @@ main > p{
     text-indent: 10px;
     line-height: 3.5em;
     text-align: justify;
+}
+
+img{
+    width: 100%;
 }
 
 main a{
